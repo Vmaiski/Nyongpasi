@@ -1,0 +1,13 @@
+Provider "aws" {
+	region = "us-east-2"
+	# access_Key =""
+	# secret_key =""
+
+}
+
+resources "aws_instance" "intro" {
+	ami=
+	instance_type=
+	availability_zone=
+	key_type=
+}
